@@ -1,0 +1,1 @@
+Select Patient.Patient_Id, Person.Name, Address. *  from Patient inner join Person on Person.Person_Id = Patient.Patient_Id join Address on Address.Address_Id = Person.Address_Id;

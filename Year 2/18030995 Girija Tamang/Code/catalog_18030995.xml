@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="catalog_18030995.css"?>
+<CarStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
+  <storeName>Heaven Car Shop</storeName>
+  <logo> </logo>
+  <storeAddress>Dharan-15</storeAddress>
+  <telephone>9876543210</telephone>
+  <website> www.carstore.com </website>
+  <car>
+    <type id="ty01">SUV</type>
+    <description> Conventionally, a sports utility vehicle (SUV) is a big car built on a body-on-frame chassis, sports increased ground clearance and offers off-roading capabilities to a certain extent. With that said, the above mentioned definition of an SUV has blurred over time and often includes both off-roaders and soft-roaders.</description>
+    <quantity>4</quantity>
+    <carDetail carid="S01">
+      <carModel>Mahindra Scorpio</carModel>
+      <manufacturer>Mahindra &amp;Mahindra</manufacturer>
+      <carType>Fuel</carType>
+      <color>Black</color>
+      <dimension> 4456/1820/1995 mm </dimension>
+      <transmission>Manual</transmission>
+      <km_driven>54635 </km_driven>
+      <price> 1600000 </price>
+      <insurance>Yes</insurance>
+      <fuel_economy> 15.4  </fuel_economy>
+    </carDetail>
+
+    <carDetail carid="S02">
+      <carModel>Mahindra Thar</carModel>
+      <manufacturer> Mahindra &amp; Mahindra</manufacturer>
+      <carType>Fuel</carType>
+      <color>Red and Black</color>
+      <dimension> 4456/1820/1995 mm </dimension>
+      <transmission>Manual</transmission>
+      <km_driven> 144635 </km_driven>
+      <price> 2000000 </price>
+    </carDetail>
+
+    <carDetail carid="S03">
+      <carModel>Honda CR-V</carModel>
+      <manufacturer>Honda Motor Company</manufacturer>
+      <carType>Hybrid</carType>
+      <color>Silver</color>
+      <dimension> 4456/1820/1995 mm </dimension>
+      <transmission> Automatic </transmission>
+      <km_driven>27635 </km_driven>
+      <price> 3000000 </price>
+      <fuel_economy> 10.4  </fuel_economy>
+    </carDetail>
+
+    <carDetail carid="S04">
+      <carModel>Renault Duster</carModel>
+      <manufacturer> ‎Renault‎, ‎Dacia </manufacturer>
+      <carType>Fuel</carType>
+      <color>Blue</color>
+      <dimension> 4360/1822/1695 mm </dimension>
+      <transmission>Manual</transmission>
+      <km_driven>74635 </km_driven>
+      <price> 1600000  </price>
+      <insurance>Yes</insurance>
+    </carDetail>
+  </car>
+
+  <car>
+    <type id="ty02"> HATCHBACK </type>
+    <description>A hatchback is a type of car that has a rear door opening upwards. They usually have a four-door configuration, with the exception of the rear door. Two-door hatchbacks aren't rare though. </description>
+    <quantity>4</quantity>
+    <carDetail carid="h01">
+      <carModel>MINI 3 door Cooper S</carModel>
+      <manufacturer>	Mini (BMW) </manufacturer>
+      <carType>Fuel</carType>
+      <color>Black and Yellow </color>
+      <dimension> 4456/1820/1995 mm </dimension>
+      <transmission>Automatic</transmission>
+      <km_driven>195995 </km_driven>
+      <price> 2200000  </price>
+      <insurance>Yes</insurance>
+      <no_of_owner>Second</no_of_owner>
+    </carDetail>
+
+    <carDetail carid="h20">
+      <carModel>Renault Kwid</carModel>
+      <manufacturer> Renault </manufacturer>
+      <carType>Hybrid</carType>
+      <color>Blue </color>
+      <dimension> 4456/1820/1995 mm </dimension>
+      <transmission>Manual</transmission>
+      <km_driven>69995 </km_driven>
+      <price>  1300000 </price>
+      <no_of_owner>Second</no_of_owner>
+    </carDetail>
+
+    <carDetail carid="h21">
+      <carModel>Maruti Suzuki Alto 800</carModel>
+      <manufacturer>Maruti Suzuki </manufacturer>
+      <carType>Fuel</carType>
+      <color>Black and Yellow </color>
+      <dimension> 3445/1515/1475 mm</dimension>
+      <transmission>Manual</transmission>
+      <km_driven> 951995 </km_driven>
+      <price>  2000000 </price>
+      <insurance>Yes</insurance>
+      <no_of_owner>Second</no_of_owner>
+    </carDetail>
+
+    <carDetail carid="h11">
+      <carModel>Hyundai Grand i10 </carModel>
+      <manufacturer>Hyundai Motor India Ltd.</manufacturer>
+      <carType>Fuel</carType>
+      <color>Red and Black </color>
+      <dimension> 3765/1660/1520 mm </dimension>
+      <transmission>Manual</transmission>
+      <km_driven>295995 </km_driven>
+      <price> 3000000 </price>
+      <insurance>Yes</insurance>
+      <no_of_owner>Second</no_of_owner>
+    </carDetail>
+  </car>
+
+  <car>
+    <type id="ty03">COUPE </type>
+    <description>Classically, a coupe is known as a two door closed car with a fixed roof. Considered by definition sporty, it typically only gets 2 seats, or a smaller than normal rear. The typical definition of a coupe has evolved over time and differs across manufacturers, and is now also ascribed to four-door cars and coupe-like proportions, primarily for their sporty appeal rather than number of doors. </description>
+    <quantity>2</quantity>
+    <carDetail carid="C23">
+      <carModel>Ford Mustang</carModel>
+      <manufacturer> Ford Motor Company</manufacturer>
+      <carType>Fuel</carType>
+      <color>Black and Yellow </color>
+      <dimension> 4784/2080/1391 mm </dimension>
+      <transmission>Automatic</transmission>
+      <km_driven>95995 </km_driven>
+      <price>  3500000  </price> 
+      <insurance>Yes</insurance>
+      <fuel_economy> 	11.8  </fuel_economy>
+    </carDetail>
+
+    <carDetail carid="C2">
+      <carModel>Audi R8</carModel>
+      <manufacturer> Audi </manufacturer>
+      <carType>Hybrid</carType>
+      <color>Black and Red </color>
+      <dimension> 4426/2037/1240 mm</dimension>
+      <transmission>Automatic</transmission>
+      <km_driven>969951 </km_driven>
+      <price> 2200000 </price> 
+      <fuel_economy> 	9.8  </fuel_economy>
+    </carDetail>
+  </car>
+
+  <car>
+    <type id="ty04"> SEDAN </type>
+    <description></description>
+    <quantity>2 </quantity>
+    <carDetail carid="S2">
+      <carModel>Hyundai Elantra</carModel>
+      <manufacturer>Hyundai Motor Company</manufacturer>
+      <carType>Fuel</carType>
+      <color>Black and Red </color>
+      <dimension> 4620/1800/1465 mm </dimension>
+      <transmission>Automatic</transmission>
+      <km_driven>95995 </km_driven>
+      <price> 2300000  </price>
+      <insurance>Yes</insurance>
+    </carDetail>
+
+    <carDetail carid="S12">
+      <carModel>Maruti Suzuki Ciaz</carModel>
+    	<manufacturer> Suzuki </manufacturer>
+    	<carType>Fuel</carType>
+      <color>Black </color>
+      <dimension>4490/1730/1485 mm</dimension>
+      <transmission>Automatic</transmission>
+      <km_driven>999959 </km_driven>
+      <price> 1900000 </price> 
+    </carDetail>
+  </car>
+
+	<car>
+    <type id="ty02">CROSSOVER</type>
+    <description>A basic, and popular, concept of a crossover would be that it is a vehicle combining the characteristics of an SUV with a hatchback. Crossover vehicles provide soft-roading capabilities and are designed like a car-instead of the body-on-frame structure used in SUVs, they use unibody architecture.</description>
+    <quantity>3</quantity>
+    <carDetail carid="CR2">
+      <carModel>Hyundai i20</carModel>
+      <manufacturer>Hyundai Motor Company</manufacturer>
+      <carType>Hybrid</carType>
+      <color>Silver</color>
+      <dimension>3995/1760/1555 mm</dimension>
+      <transmission>Manual</transmission>
+      <km_driven>295995 </km_driven>
+      <price>  1000000  </price>
+      <no_of_owner>third</no_of_owner>
+    </carDetail>  
+
+    <carDetail carid="CR7">
+      <carModel>Volvo S60 Cross Country</carModel>
+    	<manufacturer>Volvo Cars </manufacturer>
+    	<carType>Fuel</carType>
+      <color>Black and Red </color>
+      <dimension>4637/1866/1539 mm</dimension>
+      <transmission>Automatic</transmission>
+      <km_driven>495995 </km_driven>
+      <price> 3600000  </price> 
+    </carDetail>
+
+    <carDetail carid="C30">
+      <carModel>Maruti Suzuki S-Cross</carModel>
+      <manufacturer>NEXA</manufacturer>
+      <carType>Fuel</carType>
+      <color>Black and Blue</color>
+      <dimension> 4300/1785/1595 mm</dimension>
+      <transmission>Manual</transmission>
+      <km_driven>9598959 </km_driven>
+      <price> 1500000  </price> 
+      <fuel_economy> 	10  </fuel_economy>
+      <no_of_owner>second</no_of_owner>
+    </carDetail>
+	</car>
+</CarStore>

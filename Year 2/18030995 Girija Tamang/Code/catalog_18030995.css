@@ -1,0 +1,230 @@
+CarStore { 
+	display: block; 
+	border: 3px solid white; 
+	width: 1200px;
+	margin: 5px; 
+	padding-bottom: 10px;
+	background-color: white;
+}
+
+storeName {
+	display: block; 
+	font-size: 50pt; 
+	color:#E85A4F;
+	margin-top: 95px; 
+	margin-left: 150px;
+	text-align: center;
+ 	text-transform: uppercase;
+ 	text-shadow: #363535 3px 3px 5px;
+	font-family: Stencil Std, fantasy;
+	 float: left;
+}
+
+logo {
+	display:block; 
+	background: url(logo.jpg) no-repeat;
+	background-size:150px;
+	margin-top: 90px; 
+	width:300px;
+	height:120px;
+	padding-left: 50px;
+	float: right;
+	margin-bottom: 50px; 
+}
+
+storeAddress { 
+	display: block;
+	width: 400px; 
+	font-family: Georgia, serif;
+	color:  rgb(221, 35, 35); 
+	font-size:18pt; 
+	font-style:italic;
+	text-align: center;
+	margin-top: 300px; 
+    margin-left: 200px;
+}
+
+telephone {
+	display: block; 
+	width: 400px;
+	font-family: Trattatello, fantasy; 
+	color:  rgb(0,139,139);
+    font-size:18pt; 
+    text-align: center; 
+    margin-top:15px;
+    margin-left: 209px;}
+
+website {
+	display: block; 
+	width: 400px; 
+	font-family: Comic Sans MS, Comic Sans, cursive; 
+	color:  rgb(186,85,211);
+    font-size: 18pt; 
+    font-style: italic; 
+    text-align: center; 
+    margin-top: 15px;
+    margin-bottom: 35px; 
+    margin-left: 244px;
+} 
+
+car {
+	display: block; 
+	width: 1150px; 
+	margin-left: 20px;
+	margin-bottom: 20px; 
+	padding: 5px;
+    border: 2px outset;
+}
+
+type {
+	display: block; 
+	width: 950px; 
+	font-family: Arial, Helvertica, Sans-serif; 
+    font-size: 20pt; 
+    color: rgb(18,60,105);
+    border-bottom: 3px solid blue;
+    margin-left: 120px; 
+    margin-top: 25px;
+}      
+
+description { 
+	border: 2px solid;
+	width: 900px; 
+	margin-left: 120px; 
+	display: block; 
+    height: 50px;
+    padding-top: 30px; 
+    padding-bottom: 50px; 
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 20px;  
+    background-color: rgb(72, 221, 129); 
+    color: rgb(58, 92, 15); 
+    font-family:Snell Roundhand, cursive; 
+    text-align: justify;
+} 
+
+quantity { 
+	border: 2px; 
+	width: 601px; 
+	display: block; 
+	height:40px; 
+	font-family: Blippo, fantasy;  
+	font-size:25px; 
+    margin-left: 120px; 
+    margin-top: 20px; 
+    margin-bottom: 50px; 
+    background-color:rgb(255,248,220); 
+    color: rgb(128, 125, 125);
+    text-align: justify; 
+    padding-top: 20px; 
+    padding-bottom: 10px; 
+    padding-right: 5px;
+    padding-left: 350px; 
+} 
+
+carDetail {
+	display: block; 
+	border: 3px solid white; 
+	width: 950px; 
+	margin-left: 120px; 
+	margin-bottom: 10px;
+	background-color: #F8F8FF;
+}
+
+carModel {
+	display: block; 
+	width: 700px;
+	font-family: Luminari, fantasy; 
+    font-size: 25pt; 
+    color:rgb(165,42,42); 
+    margin-left: 20px; 
+    margin-top: 10px ; 
+}
+
+
+manufacturer,carType,color,dimension,transmission,km_driven,price,insurance,fuel_economy,no_of_owner { 
+	display: list-item; 
+    list-style-type: "\00BB  "; 
+    margin-left: 350px; margin-bottom:5px ;
+}
+   
+
+manufacturer,carType,color,dimension,transmission,km_driven,price {
+	font-family:American Typewriter, serif; 
+	font-size: 25px;
+}
+
+
+insurance,fuel_economy,no_of_owner {
+	font-family:OCR A Std, monospace, serif; 
+	font-size: 22px;
+    color: rgb(105,105,105); 
+}
+
+price { 
+	margin-bottom: 10px; 
+}   
+
+storeAddress:before {
+	content: "Address: " 
+}
+
+telephone:before {
+	content: "Telephone: "
+}
+
+website:before {
+	content: "Website: "
+}
+
+quantity:before {
+	content: "Quantity: "
+}
+
+manufacturer:before {
+	content: "Manufacturer: "
+}
+
+color:before {
+	content: "Color: "
+}
+
+carType:before {
+	content: "CarType: "
+}
+
+transmission:before {
+	content: "Transmission: "
+}
+
+insurance:before {
+	content: "Insurance: "
+}
+
+km_driven:before {
+	content: "Km_Driven: "
+}
+
+km_driven:after {
+	content: " Km"
+}
+
+dimension:before {
+	content: "Dimension: L x W x H: "
+}
+
+fuel_economy:before {
+	content: "Fuel_Economy: "
+}
+
+fuel_economy:after {
+	content: " Kmpl "
+}
+
+no_of_owner:before {
+	content: "No_Of_Owner: "
+}
+price:before {
+	content: "Price: Rs "
+}

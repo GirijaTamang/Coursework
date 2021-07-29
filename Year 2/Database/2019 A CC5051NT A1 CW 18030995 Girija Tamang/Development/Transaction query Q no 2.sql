@@ -1,0 +1,1 @@
+Select Pt.Patient_Id,Ap.Appointment_Id,Pr.Name,Wd.Ward_Type from Patient Pt join Person Pr on Patient_Id = Pr.Person_Id join Appointment Ap on Pt.Patient_Id = Ap.Patient_Id join Ward Wd on Ap.Ward_Id = Wd.Ward_Id where Wd.Ward_Type = 'Emergency';

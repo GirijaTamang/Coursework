@@ -1,0 +1,1 @@
+Select Patient_Id, Patient_Type, Name, Gender from Patient,Person where Patient.Patient_Id = Person.Person_Id;

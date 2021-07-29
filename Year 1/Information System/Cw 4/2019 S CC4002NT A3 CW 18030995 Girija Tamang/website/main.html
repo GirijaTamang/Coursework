@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Syangbo Music Store</title>
+	<!--importing home css in home page -->
+	<link rel="stylesheet" type="text/css" href="css/home.css"> 	
+</head>
+<body>
+<header>
+	<nav>
+	<!--navgation key of home page --> 
+		<div>
+			<ul class="navgation"> 
+					<li><a href="main.html">HOME</a></li>
+					<li><a href="../website/webpage/product.html">PRODUCT</a></li>
+					<li><a href="webpage/order.html">ORDER</a></li>
+					<li><a href="webpage/blog.html">BLOG</a></li>
+					<li><a href="webpage/Research.html">RESEARCH</a></li>
+					<li><a href="webpage/about.html">ABOUT</a></li>
+			</ul>
+			</div>
+	</nav>
+             <!--title of home page -->
+			<div class="title">
+			<H1>WELCOME TO <span class="color">SYANGBO MUSIC STORE</span> <br>
+			HOUSE OF MUSIC LOVER</H1>
+		</div>
+</header >
+<!--image slider of home page -->
+<div class="Image Slider" style="max-width:100%">
+  <img class="Slide " src="images/main.jpg" style="width:100%"  height="550">
+  <img class="Slide " src="images/test.jpg" style="width:100%" height="550">
+  <img class="Slide " src="images/home.jpg" style="width:100%" height="550">
+  <img class="Slide " src="images/banner3.jpg" style="width:100%" height="550">
+  <img class="Slide " src="images/main1.jpg" style="width:100%" height="550">
+</div>
+<br>
+<br><br>
+
+<h2 align="center">WHAT CAN YOU FIND AT <br> SYANGBO MUSIC STORE</h2>
+<br>
+<br><br>
+
+<table border="0" width="100%">
+<tr>
+<td width="25%" align="center" class="zoom"><img src="images/product.jpg" width="200"></td>
+<td width="25%" align="center" class="zoom"><img src="images/product1.jpg" width="200"></td>
+<td width="25%" align="center" class="zoom"><img src="images/product7.png" width="200"></td>
+<td width="25%" align="center" class="zoom"><img src="images/product6.jpg" width="200"></td>
+</td>
+</tr>
+</table>
+<br>
+<br><br>
+
+<h3 align="center"><a class="view" href="webpage/product.html">VIEW ALL</a></h3>
+<br>
+<br>
+<br>
+<!--footer part  of home page -->
+<footer>
+	<div>
+	<ul class="footer-menu"> 
+		<li><a href="main.html">Home</a></li>
+		<li><a href="webpage/product.html">Product</a></li>
+		<li><a href="webpage/blog.html">Blog</a></li>
+		<li><a href="webpage/about.html">About</a></li>					
+	</ul>
+
+	<div class="media">
+		<!--link of facebook and instagram -->
+		<ul class=""> 
+			<li><a href="https://www.facebook.com/kancho.syangbomho"><img src="images/facebook.png" height="45px" width="42px"></a></li>
+    		<li><a href="https://www.instagram.com/girija_syangbo/"><img src="images/instagram.jpg" height="42px" width="40px"></a></li>
+
+		</ul>
+	</div>
+	<br>
+	 <!--for copyright and design-->
+	<div class="copyright">
+			<p align="center">Copyright &copy; 2019 All rights reserved</p>
+			<br>
+			<p align="center">Developed By: <a href="https://www.facebook.com">Girija Tamang</a></p>
+		</div>
+</footer>
+</body>
+</html>
+<!--java script for images slide inhome page -->
+<script>
+var myIndex = 0;
+display();
+
+function display() {
+  var i;
+  var x = document.getElementsByClassName("Slide");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(display, 2000);    
+}
+</script>

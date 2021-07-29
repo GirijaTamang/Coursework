@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order</title>
+    <link rel="stylesheet" type="text/css" href="../css/order.css">
+    <script type="text/javascript" src="../javascript/validation.js"></script>
+</head>
+<body>
+<header>
+	<!-- it contain header part with navgation key-->
+<nav>
+  <div class="storename">
+    <h1> Syangbo Music Store</h1></div>
+  <div class="navigation">
+    <li><a href="../main.html">HOME</a></li>
+    <li><a href="../webpage/product.html">PRODUCT</a></li>
+    <li><a href="../webpage/order.html">ORDER</a></li>
+    <li><a href="../webpage/blog.html">BLOG</a></li>
+    <li><a href="../webpage/Research.html">RESEARCH</a></li>
+    <li><a href="../webpage/about.html">ABOUT</a></li>
+  </div>  
+</nav>
+</header>
+ <h1 align="center">Please Fill Out The Form To Order</h1>
+ <br>
+ <br>
+<!-- making table for order form-->
+<main style="width:650px;height:720px;margin-left:400px;">
+<div id="form">
+<table border="0" width="100%">
+
+<!-- creating form to validate data -->
+<form id="myform" onsubmit="return validation();">
+<tr>
+  <td>NAME:</td>
+<td  align="center">
+  <div class="input_field">
+        <input type="text" size="40" placeholder="Girija Tamang" id="N">
+  </div>
+</td>
+</tr>
+
+
+<tr>
+  <td>ADDRESS:</td>
+<td  align="center">
+  <div class="input_field">
+        <input type="text" size="40" placeholder="Dharan-15" id="A">
+  </div>
+</td>
+</tr>
+
+<tr>
+  <td>PHONE NUMBER:</td>
+<td  align="center">
+  <div class="input_field">
+        <input type="text" size="40" placeholder="9811780224" id="P">
+    </div>
+</td>
+</tr>
+
+<tr>
+  <td>EMAIL ID:</td>
+<td  align="center">
+   <div class="input_field">
+        <input type="text"  size="40" placeholder="girija@gmail.com" id="E">
+    </div>
+</td>
+</tr>
+
+
+<tr>
+  <td>COMMENT:</td>
+<td  align="center">
+  <div class="input_field">
+        <textarea placeholder="Message" id="M"></textarea>
+    </div>
+</td>
+</tr>
+<tr>
+  
+<td  align="center">
+ <div class="btn">
+        <input type="submit">
+    </div>
+</td>
+</tr>
+</form>
+</div>
+</table>
+</div>
+</main>
+
+ <footer>
+    <div class="foot"  >
+    <ul class="footer-menu"> 
+        <li><a href="../main.html">HOME</a></li>
+        <li><a href="../webpage/product.html">PRODUCT</a></li>
+        <li><a href="../webpage/blog.html">BLOG</a></li>
+        <li><a href="../webpage/about.html">ABOUT</a></li>
+
+      <!-- here is link of facebook and instagram-->              
+    </ul>
+    <div class="media">
+        <ul class=""> 
+        <li><a href="https://www.facebook.com/kancho.syangbomho"><img src="../images/facebook.png" height="45px" width="42px"></a></li>
+        <li><a href="https://www.instagram.com/girija_syangbo/"><img src="../images/instagram.jpg" height="42px" width="40px"></a></li> 
+
+        </ul>
+    </div>
+    <br>
+    <div class="copyright">
+            <p align="center" backgroung>Copyright © 2019 All rights reserved</p>
+            <br>
+            <p align="center" style="margin-top:-15px;">Developed By: <a href="https://www.facebook.com/kancho.syangbomho" style="text-decoration:none;">Girija Tamang</a></p>
+        </div>
+</footer>
+
+</body>
+</html>

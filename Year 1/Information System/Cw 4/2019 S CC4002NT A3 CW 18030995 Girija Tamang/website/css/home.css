@@ -1,0 +1,119 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+header{
+	background-image: url('../images/pic4.jpg');
+	background-size: cover ;
+	background-repeat:no-repeat; 
+	background-position: center;
+	height: 50vh;
+}
+
+/* all navgation part edits navigation key*/
+.navgation{
+	height: 120px;
+	width: auto;
+	float:right;
+	margin-top: 50px; 
+}
+.navgation li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 72px;
+	
+}
+.navgation li a{
+	padding: 5px 0;
+	color: white;
+	text-decoration: none;
+	font-size: 120%;
+	
+
+}
+.navgation li a:hover{
+background-color:purple; 
+}
+
+/*desinging title for syangbo music store  */
+.title{
+	width: 1180px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-60%);
+}
+
+h1{
+	font-family: cursive;
+	color: white;
+	font-size: 240%;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+/* editing span for changing color of syangbo music store*/
+.color{
+	animation: colorsyangbo 2s infinite;
+}
+@keyframes colorsyangbo{
+	0%{color:red;}
+	25%{color:purple;}
+	50%{color:green;}
+	75%{color:white;}
+	100%{color:yellow;}
+
+}
+
+footer{
+	background: red;
+	height: 10vh;
+}
+.footer-menu{
+	float: left;
+	margin-top: 20px; 
+}
+.footer-menu li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+}
+.footer-menu li a{
+	padding: 5px 0;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	font-weight: 100;
+
+}
+.footer-menu li a:hover{
+border-bottom: 2px solid blue; 
+}
+
+/*editing facebook and instagram*/
+.media{
+	float: right;
+	margin-top: 5px; 
+}
+.media li{
+	display: inline-block;
+	list-style: none;
+	margin-right:40px;
+}
+.media li a{
+	padding: 5px 0;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	font-weight: 100;
+}
+.copyright{
+	
+	margin-top: 45px; 
+}

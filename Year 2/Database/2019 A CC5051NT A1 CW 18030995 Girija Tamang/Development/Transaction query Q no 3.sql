@@ -1,0 +1,1 @@
+Select Person. Name, Staff. Staff_Id, Staff. Staff_Type, Staff. Post, Appointment. Appoint_Date from Person Person join staff on Person. Person_Id = Staff. Staff_id join Appointment on Staff. Staff_Id = Appointment. Staff_Id where Appointment. Appoint_Date = ’02-feb-2019’;
